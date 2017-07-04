@@ -1,0 +1,34 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HIIT Timer</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <nav>
+    <p class="left">HIIT Timer</p>
+    <p class="right">I want <input type="text" id="intervalTime" value="20" /> second intervals with <input type="text" id="breakTime" value="10" /> seconds of rest. <button id="settings">Go!</button></p>
+    <br class="clear"/>
+  </nav>
+
+  <h1 id="status">Rest</h2>
+
+  <p class="large"><span id="sec">20</span> seconds</p>
+
+  <p>
+    <button id="start">Start</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="pause">Pause</button>
+  </p>
+  <p>
+    <button id="reset">Reset</button>
+  </p>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
