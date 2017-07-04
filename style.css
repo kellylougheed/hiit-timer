@@ -22,11 +22,12 @@ nav p {
 
 nav p.left {
 	float: left;
-	color: rgba(255,255,255,.8);
+	color: rgba(255,255,255,.9);
 	font-size: 2em;
 	font-family: 'Oswald', 'Helvetica Neue', arial;
 	font-weight: 300;
 	margin-bottom: 0;
+	text-transform: uppercase;
 }
 
 nav p.right {
@@ -52,10 +53,11 @@ nav p button {
 h1 {
 	font-family: 'Oswald', 'Helvetica Neue', arial;
 	font-weight: 300;
-	font-size: 5em;
+	font-size: 4em;
 	letter-spacing: 5px;
 	color: rgba(255,255,255,.8);
-	margin-bottom: 0;
+	margin-bottom: -30px;
+	text-transform: uppercase;
 }
 
 p.large {
@@ -69,10 +71,12 @@ button, input {
 }
 
 button {
-	padding: 20px;
+	padding: 15px 25px;
 	border: none;
 	background: rgba(0,0,0,.3);
 	letter-spacing: 1px;
+	font-family: 'Oswald', 'Helvetica Neue', arial;
+	text-transform: uppercase;
 }
 
 button:hover {
