@@ -99,12 +99,12 @@ button:hover {
 	}
 
 	p#time input {
-		padding: 5px 10px;
+		padding: 5px 5px;
 		font-size: .8em;
 	}
-	
+
 	p#time button {
-		padding: 2px 15px;
+		padding: 2px 20px;
 	}
 
 	h1, p.large {
