@@ -83,3 +83,35 @@ button:hover {
 	cursor: pointer;
 	background: rgba(0,0,0,.15);
 }
+
+@media (max-width: 767px) {
+
+	p#title {
+		float: none;
+		text-align: center;
+		border-bottom: 1px solid rgba(255,255,255,.9);
+		margin-bottom: 20px;
+	}
+
+	p#time {
+		float: none;
+		text-align: center;
+	}
+
+	p#time input {
+		padding: 5px 10px;
+		font-size: .8em;
+	}
+	
+	p#time button {
+		padding: 2px 15px;
+	}
+
+	h1, p.large {
+		margin: 0;
+	}
+
+	p.large {
+		font-size: 4em;
+	}
+}
