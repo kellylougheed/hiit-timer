@@ -19,8 +19,8 @@ window.onload = function() {
   var secondsSpan = document.getElementById("sec");
 
   settingsButton.onclick = function() {
-    intervalTime = intervalInput.value * 1;
-    breakTime = breakInput.value * 1;
+    intervalTime = Math.floor(intervalInput.value * 1);
+    breakTime = Math.floor(breakInput.value * 1);
     reset();
   }
 
