@@ -6,27 +6,33 @@
   <title>HIIT Timer</title>
   <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
   <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="favicon.ico" sizes="16x16 32x32" type="image/png">
+
 </head>
 <body>
 
-  <nav>
-    <p class="left" id="title">HIIT Timer</p>
-    <p class="right" id="time">I want <input type="text" id="intervalTime" value="20" /> second intervals with <input type="text" id="breakTime" value="10" /> seconds of rest. <button id="settings">Go!</button></p>
-    <br class="clear"/>
-  </nav>
+  <div id="app">
 
-  <h1 id="status">Rest</h2>
+    <h2>HIIT Timer</h2>
 
-  <p class="large"><span id="sec">20</span> seconds</p>
+    <p class="controls">
+      <input type="text" id="intervalTime" value="20" /> second intervals <input type="text" id="breakTime" value="10" /> seconds rest <button id="settings">Update</button>
+    </p>
 
-  <p>
-    <button id="start">Start</button>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <button id="pause">Pause</button>
-  </p>
-  <p>
-    <button id="reset">Reset</button>
-  </p>
+    <h1 id="status">Rest</h1>
+
+    <p class="large"><span id="sec">20</span></p>
+
+    <p>
+      <button id="start">Start</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <button id="pause">Pause</button>
+    </p>
+    <p>
+      <button id="reset">Reset</button>
+    </p>
+
+  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="script.js"></script>
