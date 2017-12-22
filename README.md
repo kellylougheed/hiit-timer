@@ -2,6 +2,8 @@
 
 A timer for high-intensity interval training built with JavaScript and HTML/CSS.
 
+<img src="http://www.kellylougheed.com/images/projects/hiit.gif" alt="JavaScript HIIT timer">
+
 ## Features
 
 * You can customize the length of your intervals and breaks (the default is 20 second intervals with 10 second breaks).
