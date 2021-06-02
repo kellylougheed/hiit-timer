@@ -2,7 +2,7 @@ window.onload = function() {
 
   var seconds = 20;
   var rest = true;
-  var interval;
+  var interval = null;
 
   var intervalTime = 20;
   var breakTime = 10;
@@ -25,6 +25,7 @@ window.onload = function() {
   }
 
   startButton.onclick = function() {
+    if(interval) return;
     rest = false;
     changeToGo();
     interval = setInterval(countdownSeconds, 1000);
@@ -36,6 +37,7 @@ window.onload = function() {
 
   function reset() {
     clearInterval(interval);
+    interval = null;
     seconds = intervalTime;
     secondsSpan.innerText = seconds;
     rest = true;
